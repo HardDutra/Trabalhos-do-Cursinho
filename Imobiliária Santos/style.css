@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+
+/*primeira_estilazação = primeira_seção*/
+.pri_one{
+    width:100%;
+    height:200px;
+    background:#afddfb;
+    display: flex;
+    justify-content: center;
+}
+.box_one{
+    width:400px;
+    height:300px;
+    text-align:center;
+}
+.soon{
+    width:150px;
+    height:150px;
+}
+.list{  /*estilização = primeira_lista*/
+   font-size: 18px;
+   display: flex;
+   justify-content:space-between;   
+}
+li a{ /*estilização = primeira_lista*/
+   text-decoration: none;
+   color:#f8f8f8;
+   font-family:tahoma;
+}
+
+/*segunda_estilazação = segunda_seção*/
+.home{
+    width:100%;
+    text-align: center;
+    margin:3% 0;
+}
+
+/*terceira_estilização = terceira_seção e quinta_seção*/
+.upon,.brokers{
+   width:100%;
+   display: flex;
+   justify-content: center;  
+}
+.property,.brokers_img{
+    width:450px;
+    height:280px;
+    margin:2% 0;
+}
+.upon_one,.brokers_one{
+    width:600px;
+    text-align: center;
+    margin:2% 0;
+}
+.upon_one h2{
+   color: #75bdee;
+   font-size:15px;
+   margin:2% 0;
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.upon_one  p {
+    margin: 5% 0;
+    font-size: 14px;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+/*quarta_estilização = quarta_seção e sexta_seção*/
+.service,.contact{
+ width: 100%;
+ background:#1d80c1;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.service_one,.contact_one{
+    width:500px;
+    text-align: center;
+    color: #f8f8f8;
+    margin: 2% 0;
+}
+.servi_one, h1{
+    margin:4% 0;
+}
+ p span{
+    color: #f8f84b;
+}
+
+.list_one{ /*estilização = segunda_lista*/
+    width:150px;
+    color: #f8f8f8;
+    margin:1% 0;
+}
+.list_one li{ /*estilização = primeira_lista*/
+    padding:4% 0;
+}
+.brokers_one h1{
+    color:#1d80c1;
+    border-bottom:2px solid #1d80c1;
+}
+iframe{
+    width:500px;
+    height:300px;
+    border:3px solid #000000 ;
+}
+.contact_text,.list_cont{ /*estilização = terceira_lista*/
+   background:#000000;
+   color:#f8f8f8;  
+   padding: 1%; 
+   margin: 1% 0;
+}
+
+
+
+
+
+
+
+
+
+ 
+
