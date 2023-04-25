@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+}
+header{
+    min-height:500px;
+    background:url(../img/capa.jpg);
+    background-size:cover;
+}
+.capa_one{
+   text-align: right;
+   padding: 10% 20%;
+}
+.capa_one h1,h2{
+    text-decoration: underline;
+    margin: 1% 0;
+}
+    
