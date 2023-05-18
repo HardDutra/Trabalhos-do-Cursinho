@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+.header{
+    width:100vw;
+    background:#23b4eb;
+}
+.list{
+    display: flex;
+    justify-content:center;
+    padding:2vh 0;
+}
+.itms > a{
+    color:#f0f0f0;
+    text-decoration:none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    padding:0 2vw;
+}
+.deliveryman{
+    width:100vw;
+}
+.bem_vindo, .sobre, 
+.container_sobre,.contato{
+    width:100vw;
+    margin:3vh 5vw;
+}
+h1,h3, h2 ,p{
+    margin:4vh 0;
+}
+.sobre_img{
+    width:1000px;
+    margin:3vh 12vw;
+}
+.itms_contatos{
+    display: inline;
+    margin:0 1vh;
+    background: #23b4eb;
+}
+.itms_contatos > a{
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
