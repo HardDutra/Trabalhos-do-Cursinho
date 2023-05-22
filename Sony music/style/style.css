@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow-x:hidden;
+}
+header{
+  width:100vw; 
+}
+.topo{
+    width:100vw;
+    height: 6vh;
+    background:#fd0303;
+    display: flex;
+    justify-content: center;
+}
+.list{
+    width:20vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vh; 
+}
+li >a{
+    color:#f0f0f0;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:600;
+}
+.logo{
+    width:100vw;
+    background: #a30109;
+    text-align: center;
+}
+.sony_music{
+    width:1100px;
+    height:400px;
+    margin:2vh 5vw;
+}
+main, footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pesso{
+    width: 700px;
+    background: #a30109;
+    padding:1%;
+}
+.paragrafo >p{
+    width:700px;
+    padding:2vh 0;
+    margin:1vh 0;
+}
+.list_footer > li{
+    width:230px;
+    height:30px;
+    background:#a30109;
+    display:inline-block;
+    margin:3vh 0.5vw;
+    padding:0 16px;
+}
